@@ -23,10 +23,10 @@ $ sudo apt-get install python-dev python-pip libxml2-dev libxslt1-dev zlib1g-dev
 $ pip install Scrapy
 
 JAVA :
-$ sudo apt-add-repository ppa:webupd8team/java
-$ sudo apt-get update
-$ sudo apt-get install oracle-java7-installer
-$ java -version
+$ sudo apt-add-repository ppa:webupd8team/java\n
+$ sudo apt-get update\n
+$ sudo apt-get install oracle-java7-installer\n
+$ java -version\n
 > java version "1.7.0_80"
 > Java(TM) SE Runtime Environment (build 1.7.0_80-b15)
 > Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
