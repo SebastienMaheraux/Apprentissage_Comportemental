@@ -72,6 +72,7 @@ $ rm ./[filename].xml
 
 
 **Convertir le XML**
+
  **_Script sed_**
   
   Ouvrir un terminal depuis le dossier contenant formatXML_v2.0.sh, puis entrez la commande :
