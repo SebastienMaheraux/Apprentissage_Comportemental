@@ -57,8 +57,8 @@ $ ./bin/spark-shell
 
 Exécution des scripts :
 
-////////////////////////////////////////////////
-utiliser le script Scrapy
+
+**utiliser le script Scrapy**
 
 Ouvrir un terminal depuis le dossier doctissimo (contenant scrapy.cfg), puis entrer la commande 
 ```
@@ -70,9 +70,9 @@ NB : la commande suivante supprime le fichier XML existant, sans quoi des probl�
 $ rm ./[filename].xml
 ```
 
-////////////////////////////////////////////////
-Convertir le XML
-  Script sed
+
+**Convertir le XML**
+ **_Script sed_**
   
   Ouvrir un terminal depuis le dossier contenant formatXML_v2.0.sh, puis entrez la commande :
   ```
@@ -81,7 +81,7 @@ Convertir le XML
   ```
   Ce script génère un fichier xml test.xml, vous en aurez besoin pour l’étape suivante.
 
-  Script JAVA
+  **_Script JAVA_**
   
   Copier/coller le document Add_id dans le dossier regroupant vos précédents projets sous Netbeans ou Eclipse.
   Ensuite récupérez le fichier xml généré précédemment par le script sed, ex : test.xml, copier/coller à la racine du projet Add_id.
@@ -98,6 +98,5 @@ Convertir le XML
   
   Une fois la bibliothèque le script devrait s’exécuter sans erreur, un fichier xml data.xml est généré à la racine du projet Add_id, vous aurez besoin de ce fichier pour l’étape suivante.
 
-////////////////////////////////////////////////
-analyser la BDD sous Spark
+**Analyser la BDD sous Spark**
 
