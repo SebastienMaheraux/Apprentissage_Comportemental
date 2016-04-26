@@ -12,14 +12,10 @@ Explication du projet :
 
 Les outils :
 
-Scrapy : http://scrapy.org/
-
-Spark : http://spark.apache.org/
-
-Java : http://www.java.com
-
-Scala : http://www.scala-lang.org/
-
+Scrapy : [Website](http://scrapy.org/)
+Spark : [Website](http://spark.apache.org/)
+Java : [Website](http://www.java.com)
+Scala : [Website](http://www.scala-lang.org/)
 Netbeans ou Eclipse
 
 Installation des outils :
@@ -64,19 +60,25 @@ Exécution des scripts :
 ////////////////////////////////////////////////
 utiliser le script Scrapy
 
-Ouvrir un terminal depuis le dossier doctissimo (contenant scrapy.cfg), puis entrer la commande $ rm ./[filename].xml; scrapy crawl doctissimo -o [filename].xml
+Ouvrir un terminal depuis le dossier doctissimo (contenant scrapy.cfg), puis entrer la commande 
+```
+$ rm ./[filename].xml; scrapy crawl doctissimo -o [filename].xml
+```
 
 NB : la commande suivante supprime le fichier XML existant, sans quoi des problèmes pourraient survenir lors de l’écriture du fichier :
+```
 $ rm ./[filename].xml
-
+```
 
 ////////////////////////////////////////////////
 Convertir le XML
   Script sed
   
   Ouvrir un terminal depuis le dossier contenant formatXML_v2.0.sh, puis entrez la commande :
+  ```
   $chmod +x formatXML_v2.0.sh
   $./formatXML_v2.0.sh
+  ```
   Ce script génère un fichier xml test.xml, vous en aurez besoin pour l’étape suivante.
 
   Script JAVA
