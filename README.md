@@ -13,9 +13,13 @@ Explication du projet :
 Les outils :
 
 Scrapy : [Website](http://scrapy.org/)
+
 Spark : [Website](http://spark.apache.org/)
+
 Java : [Website](http://www.java.com)
+
 Scala : [Website](http://www.scala-lang.org/)
+
 Netbeans ou Eclipse
 
 Installation des outils :
