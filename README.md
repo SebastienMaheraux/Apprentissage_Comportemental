@@ -10,7 +10,9 @@ Explication du projet :
 
 3/Apprentissage et prédictions avec Spark
 
+
 Les outils :
+
 
 Scrapy : [Website](http://scrapy.org/)
 
