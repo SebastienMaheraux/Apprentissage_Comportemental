@@ -1,48 +1,63 @@
 # Apprentissage_Comportemental
+
 Projet M1 mise en place de process pour la création de bases de données et leur étude
 
 Explication du projet :
 
 1/Creation d'une base de données
+
 2/Exploitation des données
+
 3/Apprentissage et prédictions avec Spark
 
 Les outils :
 
 Scrapy : http://scrapy.org/
+
 Spark : http://spark.apache.org/
+
 Java : http://www.java.com
+
 Scala : http://www.scala-lang.org/
+
 Netbeans ou Eclipse
 
 Installation des outils :
 
-SCRAPY : (http://doc.scrapy.org/en/latest/intro/install.html) (dépendances : python, pip)
+SCRAPY : [Website](http://doc.scrapy.org/en/latest/intro/install.html) (dépendances : python, pip)
+
 Sur Ubuntu 9.10 ou supérieur :
+```
 $ sudo apt-get install python-dev python-pip libxml2-dev libxslt1-dev zlib1g-dev libffi-dev libssl-dev
 $ pip install Scrapy
+```
 
 JAVA :
-$ sudo apt-add-repository ppa:webupd8team/java\n
-$ sudo apt-get update\n
-$ sudo apt-get install oracle-java7-installer\n
-$ java -version\n
+```
+$ sudo apt-add-repository ppa:webupd8team/java
+$ sudo apt-get update
+$ sudo apt-get install oracle-java7-installer
+$ java -version
+```
 > java version "1.7.0_80"
 > Java(TM) SE Runtime Environment (build 1.7.0_80-b15)
 > Java HotSpot(TM) 64-Bit Server VM (build 24.80-b11, mixed mode)
 
 SCALA :
+```
 $ wget http://www.scala-lang.org/files/archive/scala-2.11.7.deb
 $ sudo dpkg -i scala-2.11.7.deb
 $ sudo apt-get update
 $ sudo apt-get install scala
+```
 
 SPARK :
+```
 $ wget http://d3kbcqa49mib13.cloudfront.net/spark-1.2.0-bin-hadoop2.4.tgz
 $ tar -xzvf spark-1.2.0-bin-hadoop2.4.tgz
 $ cd spark-1.2.0-bin-hadoop2.4/
 $ ./bin/spark-shell
-
+```
 
 Exécution des scripts :
 
