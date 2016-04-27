@@ -110,16 +110,16 @@ $ rm ./[filename].xml
 
   Prérequis : Spark version 1.6.0
   
-  Afin de traiter la BDD avec Spark, il faut que le script .scala et la BDD .xml soient dans le même dossier.
+  Afin de traiter la BDD avec Spark, il faut que le script .scala et la fichier contenant votre BDD .xml soient dans le même dossier.
   
-  Lancez ensuite le script de cette manière
+  Lancez ensuite le script de cette manière :
   
   
   ```
   $ spark-shell -i <file adress>/[filename].scala
   ```
-  
-  Pour lancer une nouvelle fois le script .scala sans avoir à redémarrer Spark :
+
+  Pour lancer une nouvelle fois le script .scala sans avoir à fermer puis redémarrer Spark, entrez la commande suivante :
   
   ```
   scala>  :load <file adress>/[filename].scala
