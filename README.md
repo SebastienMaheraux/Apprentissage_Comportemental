@@ -135,3 +135,8 @@ $ rm ./[filename].xml
     - la probabilité que le message concerne le sujet correspondant au tag indiqué, à prendre avec du recul selon la vraisemblance obtenue précedemment
   
   Un deuxième message est analysé par la même, qui lui concerne une question de programmation : il est ici afin de s'assurer qu'un message n'ayant rien avoir avec le sujet ciblé (l'alimentation dans notre exemple) obtienne bien les probabilités attendues : ~100% de vrai-positif, ~0% de chances qu'il parle d'alimentation.
+  
+  **Un second script est donné, qui est muni d'un système d'auto-calibration pour le pipeline model :**
+   ```
+  $ spark-shell -i spark_doctissimo_last_autocalibrated.scala.scala
+  ```
