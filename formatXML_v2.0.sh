@@ -1,5 +1,7 @@
 #!/bin/bash
 
+`cp $1 ./output.xml`
+
 # remove all special and unwanted characters
 #sed "s/\'/\\\'/g" -i ./test2.xml
 # replace " by \" except for: <?xml version="1.0" encoding="utf-8"?>
@@ -19,7 +21,7 @@ sed 's/<link>/link=\"/g' -i ./output.xml
 sed 's/<title>/title=\"/g' -i ./output.xml
 # replace ending tags by "[space] or " depending on the cases
 sed 's/<\/item>/\/>/g' -i ./output.xml
-sed 's/  <\/date>/\" /g' -i ./output.xml
+sed 's/  <\/date>/\" /g' -i ./output.xml
 sed 's/<\/message>/\" /g' -i ./output.xml
 sed 's/<\/link>/\" /g' -i ./output.xml
 sed 's/<\/title>/\" /g' -i ./output.xml
