@@ -83,10 +83,15 @@ $ rm ./[filename].xml
   
   Ouvrir un terminal depuis le dossier contenant formatXML_v2.0.sh, puis entrez la commande :
   ```
-  $chmod +x formatXML_v2.0.sh
-  $./formatXML_v2.0.sh
+  $ chmod +x formatXML_v2.0.sh
+  $ ./formatXML_v2.0.sh [input_filename]
   ```
-  Ce script génère un fichier xml test.xml, vous en aurez besoin pour l’étape suivante.
+  ex :
+  ```
+  $ ./formatXML_v2.0.sh scrapedData.xml
+  ```
+  
+  Ce script génère un fichier xml output.xml, vous en aurez besoin pour l’étape suivante.
 
   **_Script JAVA_**
   
@@ -124,3 +129,9 @@ $ rm ./[filename].xml
   ```
   scala>  :load <file adress>/[filename].scala
   ```
+  
+  Ce script vous donnera suite à son excéution la probabilité que le message donné dans le code correspond bien au tag également indiqué dans le code. Deux probabilités seront présentées :
+    - le taux de vrai-positif, en quelque sorte la vraisemblance du résultat obtenu
+    - la probabilité que le message concerne le sujet correspondant au tag indiqué, à prendre avec du recul selon la vraisemblance obtenue précedemment
+  
+  Un deuxième message est analysé par la même, qui lui concerne une question de programmation : il est ici afin de s'assurer qu'un message n'ayant rien avoir avec le sujet ciblé (l'alimentation dans notre exemple) obtienne bien les probabilités attendues : ~100% de vrai-positif, ~0% de chances qu'il parle d'alimentation.
